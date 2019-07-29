@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6a51e1db471c29a6aa99874e1d0125a2f9901f80
+=======
+>>>>>>> doc-brown
 # Git Merge Conflicts
 
 ## Learning Goals
@@ -116,15 +123,23 @@ page with just a placeholder avatar. Marty and Doc should not be there.
 
 ### Step 3: Merge!
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 You're going to add both the `doc-brown` branch and the `marty-mcfly` branch to
 the master branch using `git merge`. Merge the `doc-brown` branch first by running:
 
 ```bash
 git merge doc-brown -m "merge doc brown"
 ```
+=======
+You're going to add both the doc-brown branch and the marty-mcfly branch to the master branch using merge. Merge the `doc-brown` branch first by running `git merge doc-brown -m "merge doc brown"` in the terminal.
+>>>>>>> 6a51e1db471c29a6aa99874e1d0125a2f9901f80
 
 Here, we're saying: "Integrate the differences between `master` and `doc-brown`
 _back_ into `master`."
+=======
+You're going to add both the doc-brown branch and the marty-mcfly branch to the master branch using merge. Merge the `doc-brown` branch first by running `git merge doc-brown -m "merge doc brown"` in the terminal.
+>>>>>>> doc-brown
 
 When you merge `doc-brown` into your `master` branch, your terminal should print
 a readout that looks something like this:
