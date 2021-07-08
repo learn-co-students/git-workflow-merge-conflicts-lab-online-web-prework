@@ -135,9 +135,11 @@ the master branch using `git merge`. Merge the `doc-brown` branch first by runni
 ```bash
 git merge doc-brown -m "merge doc brown"
 ```
+You're going to add both the doc-brown branch and the marty-mcfly branch to the master branch using merge. Merge the `doc-brown` branch first by running `git merge doc-brown -m "merge doc brown"` in the terminal.
 
 Here, we're saying: "Integrate the differences between `master` and `doc-brown`
 _back_ into `master`."
+You're going to add both the doc-brown branch and the marty-mcfly branch to the master branch using merge. Merge the `doc-brown` branch first by running `git merge doc-brown -m "merge doc brown"` in the terminal.
 
 When you merge `doc-brown` into your `master` branch, your terminal should print
 a readout that looks something like this:
@@ -204,7 +206,6 @@ Open up the `index.html` file. Scroll down to around line 114 and 137. You
 should see something that looks like this:
 
 ```html
-<<<<<<< HEAD
   <!-- Begin Profile -->
   <li class="home-blog-post">
     <div class="blog-thumb">
@@ -225,9 +226,6 @@ should see something that looks like this:
     <div class="clear"></div>
   </li>
   <!-- End Profile -->
-=======
->>>>>>> marty-mcfly
-... (MORE CODE) ...
 ```
 
 #### Identify the Commits to Merge
